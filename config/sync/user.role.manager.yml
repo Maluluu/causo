@@ -1,0 +1,40 @@
+uuid: 792d1ab8-5bd8-41d7-b10a-a0d9b1040905
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: Gestor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'create article content'
+  - 'create caja content'
+  - 'create customer content'
+  - 'create lineas_de_caja content'
+  - 'create page content'
+  - 'create productos content'
+  - 'delete any article content'
+  - 'delete any caja content'
+  - 'delete any customer content'
+  - 'delete any lineas_de_caja content'
+  - 'delete any page content'
+  - 'delete any productos content'
+  - 'delete own article content'
+  - 'delete own caja content'
+  - 'delete own customer content'
+  - 'delete own lineas_de_caja content'
+  - 'delete own page content'
+  - 'delete own productos content'
+  - 'edit any article content'
+  - 'edit any caja content'
+  - 'edit any customer content'
+  - 'edit any lineas_de_caja content'
+  - 'edit any page content'
+  - 'edit any productos content'
+  - 'edit own article content'
+  - 'edit own caja content'
+  - 'edit own customer content'
+  - 'edit own lineas_de_caja content'
+  - 'edit own page content'
+  - 'edit own productos content'

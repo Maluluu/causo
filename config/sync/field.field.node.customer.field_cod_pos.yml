@@ -1,0 +1,23 @@
+uuid: 48310d9d-a4aa-4700-91b8-51434f150aaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cod_pos
+    - node.type.customer
+id: node.customer.field_cod_pos
+field_name: field_cod_pos
+entity_type: node
+bundle: customer
+label: 'Código postal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

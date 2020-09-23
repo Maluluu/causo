@@ -1,0 +1,22 @@
+uuid: e9b125b1-e707-41be-9433-03a2b16d40fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.caja
+id: node.caja.promote
+field_name: promote
+entity_type: node
+bundle: caja
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

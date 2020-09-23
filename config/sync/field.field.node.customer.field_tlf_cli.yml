@@ -1,0 +1,23 @@
+uuid: 95bb825f-9e05-4079-8068-8f09eab410a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tlf_cli
+    - node.type.customer
+id: node.customer.field_tlf_cli
+field_name: field_tlf_cli
+entity_type: node
+bundle: customer
+label: Teléfono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

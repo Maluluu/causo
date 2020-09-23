@@ -1,0 +1,25 @@
+uuid: e3949ec2-d834-47e6-abc1-e9b37a99fc8f
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-causo
+  module:
+    - system
+  theme:
+    - bartik
+id: causo
+theme: bartik
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-causo'
+settings:
+  id: 'system_menu_block:menu-causo'
+  label: Causo
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,28 @@
+uuid: 101151b3-1c9e-46ec-ae79-45ec0d017449
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_delivery_lines
+    - node.type.delivery
+    - node.type.lineas_de_albaran
+id: node.delivery.field_delivery_lines
+field_name: field_delivery_lines
+entity_type: node
+bundle: delivery
+label: 'Lineas de albarán'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      lineas_de_albaran: lineas_de_albaran
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

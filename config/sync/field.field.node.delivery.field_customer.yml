@@ -1,0 +1,28 @@
+uuid: ec781cd3-1bd3-4e13-889c-63e293ed6b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer
+    - node.type.customer
+    - node.type.delivery
+id: node.delivery.field_customer
+field_name: field_customer
+entity_type: node
+bundle: delivery
+label: Cliente
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      customer: customer
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

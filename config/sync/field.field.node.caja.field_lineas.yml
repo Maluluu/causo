@@ -1,0 +1,28 @@
+uuid: 8c42f771-7cf9-4181-90cf-b291aec0b5c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lineas
+    - node.type.caja
+    - node.type.lineas_de_caja
+id: node.caja.field_lineas
+field_name: field_lineas
+entity_type: node
+bundle: caja
+label: 'Apuntes de caja'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      lineas_de_caja: lineas_de_caja
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

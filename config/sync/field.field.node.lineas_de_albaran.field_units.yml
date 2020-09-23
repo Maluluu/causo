@@ -1,0 +1,23 @@
+uuid: c958833a-b7f8-441a-9ce6-38b1462bd14d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_units
+    - node.type.lineas_de_albaran
+id: node.lineas_de_albaran.field_units
+field_name: field_units
+entity_type: node
+bundle: lineas_de_albaran
+label: Unidades
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

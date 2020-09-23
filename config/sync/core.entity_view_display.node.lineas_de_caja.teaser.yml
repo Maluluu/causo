@@ -1,0 +1,26 @@
+uuid: 8a8a4745-e65c-40ea-9d5a-c5a64ec0d6f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lineas_de_caja.field_amount
+    - field.field.node.lineas_de_caja.field_date
+    - field.field.node.lineas_de_caja.field_operation
+    - node.type.lineas_de_caja
+  module:
+    - user
+id: node.lineas_de_caja.teaser
+targetEntityType: node
+bundle: lineas_de_caja
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_amount: true
+  field_date: true
+  field_operation: true

@@ -1,0 +1,23 @@
+uuid: 0f4a66c6-330f-480c-af84-ff2ea65f446c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_amount
+    - node.type.caja
+id: node.caja.field_total_amount
+field_name: field_total_amount
+entity_type: node
+bundle: caja
+label: 'Importe Total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

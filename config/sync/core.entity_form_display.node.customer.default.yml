@@ -3,22 +3,26 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.customer.field_address_cli
     - field.field.node.customer.field_cod_cli
-    - field.field.node.customer.field_name_cli
+    - field.field.node.customer.field_cod_pos
+    - field.field.node.customer.field_province
+    - field.field.node.customer.field_tlf_cli
+    - field.field.node.customer.field_town
     - node.type.customer
-  module:
-    - path
 id: node.customer.default
 targetEntityType: node
 bundle: customer
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 4
-    region: content
-    settings: {  }
+  field_address_cli:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_cod_cli:
     weight: 0
     settings:
@@ -26,39 +30,41 @@ content:
     third_party_settings: {  }
     type: number
     region: content
-  field_name_cli:
-    weight: 2
+  field_cod_pos:
+    weight: 26
     settings:
-      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
+    type: number
     region: content
-  path:
-    type: path
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
+  field_province:
+    weight: 28
     settings:
-      display_label: true
-    weight: 5
-    region: content
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tlf_cli:
+    weight: 3
+    settings:
+      placeholder: '955 123 456'
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_town:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
-    region: content
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 6
+    weight: 4
     region: content
     third_party_settings: {  }
   title:
@@ -69,14 +75,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 3
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-      match_limit: 10
-    region: content
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

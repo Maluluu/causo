@@ -1,0 +1,75 @@
+uuid: ef692ad4-f1ea-4f3d-8ca4-f8bd2a58d2ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.delivery.field_customer
+    - field.field.node.delivery.field_date
+    - field.field.node.delivery.field_delivery_lines
+    - field.field.node.delivery.field_numero_delivery
+    - node.type.delivery
+  module:
+    - datetime
+    - inline_entity_form
+    - serial
+id: node.delivery.default
+targetEntityType: node
+bundle: delivery
+mode: default
+content:
+  field_customer:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_date:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_delivery_lines:
+    weight: 4
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      revision: false
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_numero_delivery:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: serial_default_widget
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

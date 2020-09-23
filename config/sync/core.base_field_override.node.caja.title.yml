@@ -1,0 +1,18 @@
+uuid: b775b605-e5b4-4671-b96b-8355bf44a4a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.caja
+id: node.caja.title
+field_name: title
+entity_type: node
+bundle: caja
+label: Concepto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

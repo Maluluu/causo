@@ -1,0 +1,28 @@
+uuid: f2eb4035-1492-4814-9346-7bb6a2abb8f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lineas_de_albaran.field_cod_product
+    - field.field.node.lineas_de_albaran.field_precio
+    - field.field.node.lineas_de_albaran.field_total
+    - field.field.node.lineas_de_albaran.field_units
+    - node.type.lineas_de_albaran
+  module:
+    - user
+id: node.lineas_de_albaran.teaser
+targetEntityType: node
+bundle: lineas_de_albaran
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cod_product: true
+  field_precio: true
+  field_total: true
+  field_units: true

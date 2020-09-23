@@ -1,0 +1,23 @@
+uuid: 13e1a9b5-e651-470d-b749-7982ac026da5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_amount
+    - node.type.lineas_de_caja
+id: node.lineas_de_caja.field_amount
+field_name: field_amount
+entity_type: node
+bundle: lineas_de_caja
+label: Importe
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

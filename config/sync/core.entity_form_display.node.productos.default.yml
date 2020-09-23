@@ -1,0 +1,48 @@
+uuid: 1a8ab214-a77d-44e1-bdfe-ab3715584edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.productos.field_cod_pro
+    - field.field.node.productos.field_precio
+    - node.type.productos
+id: node.productos.default
+targetEntityType: node
+bundle: productos
+mode: default
+content:
+  field_cod_pro:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_precio:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

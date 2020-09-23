@@ -1,0 +1,29 @@
+uuid: 98fcd6e6-72a3-4ffc-835e-b775b5fcc3fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_operation
+    - node.type.lineas_de_caja
+    - taxonomy.vocabulary.operations_box
+id: node.lineas_de_caja.field_operation
+field_name: field_operation
+entity_type: node
+bundle: lineas_de_caja
+label: Operación
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      operations_box: operations_box
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

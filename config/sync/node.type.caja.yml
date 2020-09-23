@@ -1,0 +1,18 @@
+uuid: 0a8266c2-e3f4-4620-864c-d4e94f0c7666
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Caja
+type: caja
+description: 'Utilizar la caja para crear las entradas de caja, diariamente.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

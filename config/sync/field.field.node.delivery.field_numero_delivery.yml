@@ -1,0 +1,23 @@
+uuid: 0eba64d4-6570-4581-8b4a-ed873c6901d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_numero_delivery
+    - node.type.delivery
+  module:
+    - serial
+id: node.delivery.field_numero_delivery
+field_name: field_numero_delivery
+entity_type: node
+bundle: delivery
+label: 'Número de albarán'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: serial

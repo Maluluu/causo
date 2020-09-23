@@ -1,0 +1,8 @@
+uuid: b5f6251e-a7b8-4a5c-90f3-2478c0eded11
+langcode: en
+status: true
+dependencies: {  }
+name: 'Operaciones de caja'
+vid: operations_box
+description: ''
+weight: 0

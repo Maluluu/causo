@@ -1,19 +1,19 @@
-uuid: 08850eab-c265-48b7-8958-84e704b8ed63
+uuid: 2300c83d-f43c-4eb0-8068-13a05416cd5d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_name_cli
+    - field.storage.node.field_town
     - node.type.customer
-id: node.customer.field_name_cli
-field_name: field_name_cli
+id: node.customer.field_town
+field_name: field_town
 entity_type: node
 bundle: customer
-label: Nombre
+label: Localidad
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: string

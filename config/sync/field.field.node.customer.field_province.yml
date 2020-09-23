@@ -1,0 +1,19 @@
+uuid: 9f141225-3f5c-4795-8c3d-3251df9ddee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_province
+    - node.type.customer
+id: node.customer.field_province
+field_name: field_province
+entity_type: node
+bundle: customer
+label: Provincia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

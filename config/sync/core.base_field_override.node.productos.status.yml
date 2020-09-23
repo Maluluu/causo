@@ -1,0 +1,22 @@
+uuid: 0463e57f-8ec3-4f01-afbb-aeedb5097066
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.productos
+id: node.productos.status
+field_name: status
+entity_type: node
+bundle: productos
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

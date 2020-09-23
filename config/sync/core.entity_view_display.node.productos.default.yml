@@ -1,0 +1,41 @@
+uuid: 8d30bc41-fc02-4fe2-aa40-9bfa96e7c9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.productos.field_cod_pro
+    - field.field.node.productos.field_precio
+    - node.type.productos
+  module:
+    - user
+id: node.productos.default
+targetEntityType: node
+bundle: productos
+mode: default
+content:
+  field_cod_pro:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_precio:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

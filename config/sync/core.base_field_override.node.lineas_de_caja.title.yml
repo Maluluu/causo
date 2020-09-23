@@ -1,0 +1,18 @@
+uuid: 88013acc-930b-4ce5-98e1-fd75f3d3a95d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lineas_de_caja
+id: node.lineas_de_caja.title
+field_name: title
+entity_type: node
+bundle: lineas_de_caja
+label: Concepto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

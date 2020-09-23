@@ -1,0 +1,57 @@
+uuid: c523b1c1-712a-4aa8-a30d-8c58c04a1bb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lineas_de_albaran.field_cod_product
+    - field.field.node.lineas_de_albaran.field_precio
+    - field.field.node.lineas_de_albaran.field_total
+    - field.field.node.lineas_de_albaran.field_units
+    - node.type.lineas_de_albaran
+id: node.lineas_de_albaran.default
+targetEntityType: node
+bundle: lineas_de_albaran
+mode: default
+content:
+  field_cod_product:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_precio:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_total:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_units:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 4
+      placeholder: '1'
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

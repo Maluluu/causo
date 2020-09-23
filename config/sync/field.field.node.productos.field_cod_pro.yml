@@ -1,0 +1,23 @@
+uuid: 9cd13713-a07f-4108-8fdb-8a0458330977
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cod_pro
+    - node.type.productos
+id: node.productos.field_cod_pro
+field_name: field_cod_pro
+entity_type: node
+bundle: productos
+label: Código
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10000
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,50 @@
+uuid: 421c149f-b353-4714-a06e-86bd0c0df399
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lineas_de_caja.field_amount
+    - field.field.node.lineas_de_caja.field_date
+    - field.field.node.lineas_de_caja.field_operation
+    - node.type.lineas_de_caja
+  module:
+    - datetime
+id: node.lineas_de_caja.default
+targetEntityType: node
+bundle: lineas_de_caja
+mode: default
+content:
+  field_amount:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_date:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_operation:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

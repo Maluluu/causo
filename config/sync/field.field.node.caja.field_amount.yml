@@ -1,0 +1,23 @@
+uuid: fa0138ca-a0c9-4af3-826d-e2d1700ad65f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_amount
+    - node.type.caja
+id: node.caja.field_amount
+field_name: field_amount
+entity_type: node
+bundle: caja
+label: 'Importe inicial'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

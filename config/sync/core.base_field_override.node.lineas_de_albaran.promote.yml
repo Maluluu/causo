@@ -1,0 +1,22 @@
+uuid: c0fc36da-0365-4a41-9e32-32d55f6e2a4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lineas_de_albaran
+id: node.lineas_de_albaran.promote
+field_name: promote
+entity_type: node
+bundle: lineas_de_albaran
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
