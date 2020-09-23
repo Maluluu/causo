@@ -1,0 +1,23 @@
+uuid: d179109f-7981-46f0-87c0-f51dba4b0750
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cod_cli
+    - node.type.customer
+id: node.customer.field_cod_cli
+field_name: field_cod_cli
+entity_type: node
+bundle: customer
+label: 'Código cliente'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10000
+  prefix: ''
+  suffix: ''
+field_type: integer

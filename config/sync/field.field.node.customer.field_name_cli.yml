@@ -1,0 +1,19 @@
+uuid: 08850eab-c265-48b7-8958-84e704b8ed63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name_cli
+    - node.type.customer
+id: node.customer.field_name_cli
+field_name: field_name_cli
+entity_type: node
+bundle: customer
+label: Nombre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

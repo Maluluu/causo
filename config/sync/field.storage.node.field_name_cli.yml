@@ -1,0 +1,19 @@
+uuid: 3e2536a4-9619-4680-b1ce-06a2a4bbe389
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_name_cli
+field_name: field_name_cli
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

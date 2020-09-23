@@ -1,0 +1,24 @@
+uuid: d78001d2-b778-49e5-8669-2f0b9960bbee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.customer.field_cod_cli
+    - field.field.node.customer.field_name_cli
+    - node.type.customer
+  module:
+    - user
+id: node.customer.teaser
+targetEntityType: node
+bundle: customer
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cod_cli: true
+  field_name_cli: true

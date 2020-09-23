@@ -1,0 +1,19 @@
+uuid: ba11dabf-ba63-4bf7-afcb-a09962b48b09
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: Cliente
+type: customer
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
