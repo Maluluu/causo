@@ -1,0 +1,23 @@
+uuid: 7f01d4e1-db73-4e83-9627-3826723b4351
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_credit
+    - node.type.bank_note
+id: node.bank_note.field_credit
+field_name: field_credit
+entity_type: node
+bundle: bank_note
+label: Abono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

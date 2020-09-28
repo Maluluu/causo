@@ -1,0 +1,53 @@
+uuid: 132c4415-96d7-416a-aabb-a4932e414a9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bank.field_address_bank
+    - field.field.node.bank.field_comments
+    - field.field.node.bank.field_contact
+    - field.field.node.bank.field_telephone
+    - node.type.bank
+  module:
+    - user
+id: node.bank.default
+targetEntityType: node
+bundle: bank
+mode: default
+content:
+  field_address_bank:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_comments:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_contact:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_telephone:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

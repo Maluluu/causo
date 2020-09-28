@@ -1,0 +1,30 @@
+uuid: f6ebe257-d57a-42c1-8dcf-d303035a31f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bank_note.field_cargo
+    - field.field.node.bank_note.field_concept
+    - field.field.node.bank_note.field_credit
+    - field.field.node.bank_note.field_date
+    - field.field.node.bank_note.field_saldo
+    - node.type.bank_note
+  module:
+    - user
+id: node.bank_note.teaser
+targetEntityType: node
+bundle: bank_note
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cargo: true
+  field_concept: true
+  field_credit: true
+  field_date: true
+  field_saldo: true

@@ -1,0 +1,19 @@
+uuid: bc9e6900-5717-4162-8683-4817cf5d3d6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address_bank
+    - node.type.bank
+id: node.bank.field_address_bank
+field_name: field_address_bank
+entity_type: node
+bundle: bank
+label: Dirección
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

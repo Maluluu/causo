@@ -1,0 +1,18 @@
+uuid: 0ab2a4dd-be55-4da8-ac60-394b9bf054a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bank_note
+id: node.bank_note.title
+field_name: title
+entity_type: node
+bundle: bank_note
+label: Linea
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

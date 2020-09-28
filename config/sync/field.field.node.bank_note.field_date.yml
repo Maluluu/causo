@@ -1,0 +1,24 @@
+uuid: 00a0c397-ac1b-425f-a362-902a70bb314b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.bank_note
+  module:
+    - datetime
+id: node.bank_note.field_date
+field_name: field_date
+entity_type: node
+bundle: bank_note
+label: Fecha
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    default_date_type: relative
+    default_date: '-1 day'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

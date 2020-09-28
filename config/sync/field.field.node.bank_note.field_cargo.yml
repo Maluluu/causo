@@ -1,0 +1,23 @@
+uuid: dcab6518-7778-4810-ad0b-395acb311144
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cargo
+    - node.type.bank_note
+id: node.bank_note.field_cargo
+field_name: field_cargo
+entity_type: node
+bundle: bank_note
+label: Cargo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

@@ -1,0 +1,18 @@
+uuid: eb6548f4-adf8-41c8-bb3e-7095569423b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Banco
+type: bank
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,18 @@
+uuid: 5b56cdf4-38e4-46ac-b547-718ac5b7733b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bank
+id: node.bank.title
+field_name: title
+entity_type: node
+bundle: bank
+label: Banco
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

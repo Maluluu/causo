@@ -1,0 +1,21 @@
+uuid: 83ba8874-adf7-4068-9c10-92da819b6cb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.bank
+  module:
+    - telephone
+id: node.bank.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: bank
+label: Teléfono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

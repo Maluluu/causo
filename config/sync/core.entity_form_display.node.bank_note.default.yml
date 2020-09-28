@@ -1,0 +1,74 @@
+uuid: 20665335-fedb-4059-935b-dc989e1e32c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bank_note.field_cargo
+    - field.field.node.bank_note.field_concept
+    - field.field.node.bank_note.field_credit
+    - field.field.node.bank_note.field_date
+    - field.field.node.bank_note.field_saldo
+    - node.type.bank_note
+  module:
+    - datetime
+id: node.bank_note.default
+targetEntityType: node
+bundle: bank_note
+mode: default
+content:
+  field_cargo:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_concept:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_credit:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_date:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_saldo:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

@@ -1,0 +1,28 @@
+uuid: 0362d7eb-1a8b-4652-9117-1fc03e4c521e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bank.field_address_bank
+    - field.field.node.bank.field_comments
+    - field.field.node.bank.field_contact
+    - field.field.node.bank.field_telephone
+    - node.type.bank
+  module:
+    - user
+id: node.bank.teaser
+targetEntityType: node
+bundle: bank
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_address_bank: true
+  field_comments: true
+  field_contact: true
+  field_telephone: true

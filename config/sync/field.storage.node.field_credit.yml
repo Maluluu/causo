@@ -1,0 +1,20 @@
+uuid: c3ca0e0e-2883-45b0-9d83-e0f59f9f8db2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_credit
+field_name: field_credit
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

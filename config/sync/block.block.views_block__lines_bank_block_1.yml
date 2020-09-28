@@ -1,0 +1,30 @@
+uuid: b4eb2746-d695-4ce2-be19-27852281cb1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lines_bank
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__lines_bank_block_1
+theme: bartik
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:lines_bank-block_1'
+settings:
+  id: 'views_block:lines_bank-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /gestion/bancos
+    negate: false
+    context_mapping: {  }

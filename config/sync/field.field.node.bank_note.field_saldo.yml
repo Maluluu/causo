@@ -1,0 +1,23 @@
+uuid: c5e88710-1e60-4abc-af34-f7c0d2eb7c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_saldo
+    - node.type.bank_note
+id: node.bank_note.field_saldo
+field_name: field_saldo
+entity_type: node
+bundle: bank_note
+label: Saldo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

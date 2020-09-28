@@ -1,0 +1,19 @@
+uuid: ecfaf22e-6581-4b8f-b787-2a226b043bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comments
+    - node.type.bank
+id: node.bank.field_comments
+field_name: field_comments
+entity_type: node
+bundle: bank
+label: Observaciones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,17 @@
+uuid: 17e45f00-f549-4889-9984-84bb96ab4a21
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Apuntes de banco'
+type: bank_note
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
