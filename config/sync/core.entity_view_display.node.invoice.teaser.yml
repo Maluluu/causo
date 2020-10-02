@@ -1,0 +1,34 @@
+uuid: 58ca79f1-c244-4c47-9431-84d5910d3fe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.invoice.field_cod_cli
+    - field.field.node.invoice.field_cod_product
+    - field.field.node.invoice.field_date
+    - field.field.node.invoice.field_name_product
+    - field.field.node.invoice.field_precio
+    - field.field.node.invoice.field_total
+    - field.field.node.invoice.field_units
+    - node.type.invoice
+  module:
+    - user
+id: node.invoice.teaser
+targetEntityType: node
+bundle: invoice
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cod_cli: true
+  field_cod_product: true
+  field_date: true
+  field_name_product: true
+  field_precio: true
+  field_total: true
+  field_units: true

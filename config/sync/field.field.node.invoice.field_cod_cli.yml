@@ -1,0 +1,23 @@
+uuid: 09472435-fe72-48ac-9a04-3dbd5b02749a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cod_cli
+    - node.type.invoice
+id: node.invoice.field_cod_cli
+field_name: field_cod_cli
+entity_type: node
+bundle: invoice
+label: 'Código cliente'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

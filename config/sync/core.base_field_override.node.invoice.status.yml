@@ -1,0 +1,22 @@
+uuid: 7507ce1a-5f09-469c-9508-887ec6305d00
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.invoice
+id: node.invoice.status
+field_name: status
+entity_type: node
+bundle: invoice
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

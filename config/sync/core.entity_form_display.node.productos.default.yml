@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.productos.field_cod_pro
+    - field.field.node.productos.field_name_product
     - field.field.node.productos.field_precio
     - node.type.productos
 id: node.productos.default
@@ -17,6 +18,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_name_product:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_precio:
     weight: 2

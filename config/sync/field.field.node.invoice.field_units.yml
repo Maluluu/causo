@@ -1,0 +1,23 @@
+uuid: 434fa724-6673-43e6-b316-40c6d0bea7d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_units
+    - node.type.invoice
+id: node.invoice.field_units
+field_name: field_units
+entity_type: node
+bundle: invoice
+label: Unidades
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

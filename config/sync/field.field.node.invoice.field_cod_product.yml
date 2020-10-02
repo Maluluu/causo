@@ -1,0 +1,28 @@
+uuid: edd7b595-1c41-41e8-8313-a80460b6f1ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cod_product
+    - node.type.invoice
+    - node.type.productos
+id: node.invoice.field_cod_product
+field_name: field_cod_product
+entity_type: node
+bundle: invoice
+label: 'Código producto'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      productos: productos
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
